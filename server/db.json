@@ -99,8 +99,39 @@
       "reason": "arreglar asuntos",
       "status": "approved",
       "id": "9lhMZ_ww3WQ"
+    },
+    {
+      "userId": "2",
+      "workspace": "Coworking Piso 3",
+      "date": "2026-06-07",
+      "startHour": "10:00",
+      "endHour": "12:00",
+      "reason": "planear ",
+      "status": "pending",
+      "id": "krUKEM-n3-0"
+    },
+    {
+      "userId": "3",
+      "workspace": "Sala A",
+      "date": "2026-06-12",
+      "startHour": "06:00",
+      "endHour": "08:00",
+      "reason": "tomar decisiones",
+      "status": "pending",
+      "id": "3mkiRYWw1-M"
+    },
+    {
+      "userId": "3",
+      "workspace": "Sala B",
+      "date": "2026-06-21",
+      "startHour": "13:30",
+      "endHour": "14:00",
+      "reason": "Resolución de problemas",
+      "status": "pending",
+      "id": "UmWd_5tHdio"
     }
   ],
   "$schema": [
-    "./node_modules/json-server/schema.json"]
+   "./node_modules/json-server/schema.json"
+  ]
 }
