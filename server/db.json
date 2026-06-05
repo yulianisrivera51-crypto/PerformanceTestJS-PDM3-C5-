@@ -101,4 +101,6 @@
       "id": "9lhMZ_ww3WQ"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "$schema": [
+    "./node_modules/json-server/schema.json"]
+}
