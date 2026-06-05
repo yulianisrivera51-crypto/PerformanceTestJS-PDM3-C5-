@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "1",
+      "name": "Sala A",
+      "type": "meeting_room",
+      "capacity": 10,
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Sala B",
+      "type": "meeting_room",
+      "capacity": 6,
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Oficina 101",
+      "type": "private_office",
+      "capacity": 2,
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Coworking Piso 3",
+      "type": "coworking",
+      "capacity": 20,
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Auditorio Principal",
+      "type": "auditorium",
+      "capacity": 50,
+      "available": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": "2",
+      "userId": 3,
+      "workspace": "Sala B",
+      "date": "2026-06-10",
+      "startHour": "10:00",
+      "endHour": "11:00",
+      "reason": "Daily Meeting",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "workspace": "Coworking Piso 3",
+      "date": "2026-06-12",
+      "startHour": "14:00",
+      "endHour": "16:00",
+      "reason": "Workshop de diseño",
+      "status": "approved"
+    },
+    {
+      "id": "4",
+      "userId": 3,
+      "workspace": "Oficina 101",
+      "date": "2026-06-15",
+      "startHour": "09:00",
+      "endHour": "12:00",
+      "reason": "Entrevista candidato",
+      "status": "rejected"
+    },
+    {
+      "userId": "1",
+      "workspace": "Oficina 101",
+      "date": "2026-06-10",
+      "startHour": "07:00",
+      "endHour": "10:00",
+      "reason": "arreglar asuntos",
+      "status": "approved",
+      "id": "9lhMZ_ww3WQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
